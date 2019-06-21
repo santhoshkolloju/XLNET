@@ -17,8 +17,6 @@ Langauge Modelling On a high level can be divivded into two types:
 <li>Density Based Approach</li>
 </ul>
 
-Auto Regressive language modelling(ARM) tends to estimate the probability distribution of a text corpus with a
-auto regressive model.Specifically give a set of tokens ARM tends to find the probability P(Wi|Wi-1,Wi-2....W1) 
-or the other way around (backward modelling) and then minimizes the cross entropy loss. But ARM is not effective in 
-deep bidirectional context's which are required for many down stream tasks.This is the reason ARM is not effective in 
-pre training for transfer learning.
+<b>Auto-Regressive language modeling (ARM)</b> tends to estimate the probability distribution of a text corpus with an
+autoregressive model. Specifically, give a set of tokens ARM tends to find the probability P(Wi|Wi-1,Wi-2....W1) 
+or the other way around (backward modeling) and then minimizes the cross-entropy loss. But ARM is not effective in deep bidirectional context's which are required for many downstream tasks. This is the reason ARM is not effective in pre training for transfer learning.
